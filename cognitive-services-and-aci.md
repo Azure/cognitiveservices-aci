@@ -62,7 +62,7 @@ With the following steps, you can run Cognitive Services containers onto Azure C
 
     |Page|Setting|Value|
     |--|--|--|
-    |Networking|Ports|Edit the existing port for TCP from `80` to `5000`. This means we are exposing the container on port 5000.|
+    |Networking|Ports|Edit the existing port for TCP from `80` to `5000`. This means you are exposing the container on port 5000.|
     ||||
 
 1. On the **Advanced** tab, enter the following details to pass through the container [required billing settings](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers#billing-arguments) to the ACI resource:
