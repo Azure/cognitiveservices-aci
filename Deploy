@@ -1,0 +1,54 @@
+Running Cognitive Services on Azure Container Instances (ACI) ‘in less than 10 minutes’
+Here the steps involved to run cognitive services containers onto Azure Container Instances (ACI)
+Step 1 – Create Cognitive Services resource
+A)	Create a Cognitive Services resource for Text Analytics – 
+a.	Sign into https://portal.azure.com , Click ‘create resource’
+b.	Navigate to ‘AI + Machine Learning’  Cognitive Services  Text Analytics  Create (here is a shortcut to create resource - https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics )
+c.	Provide below details
+i.	Name – your choice
+ii.	Subscription (your subscription)
+iii.	Location – ‘West US 2’  change to EU
+iv.	Select Pricing Tier - F0
+v.	Resource Group – available resource group
+d.	Click Create
+B)	Once resource created, navigate to the resource page and collect below information to a temporary notepad.
+a.	Billing Endpoint – click overview page and copy endpoint similar to this - https://<>.api.cognitive.microsoft.com/text/analytics/v2.0
+b.	API Key – Click Keys on the same resource page, copy Key1 or Key2 of your choice 
+
+Step 2 – Launch Text Analytics Containers on Azure Container Instances (ACI) 
+A)	Create an Azure Container Instance resource - 
+a.	From the  portal https://portal.azure.com , Click ‘create resource’
+b.	Navigate to ‘Containers’  Container Instances, here is a shortcut to create ACI resource - https://ms.portal.azure.com/#create/microsoft.containerinstances
+c.	Provide below details on ‘Basics’ page -
+i.	Subscription name - 
+ii.	Resource Group – 
+iii.	Container Name – ‘sentimentcontainer’
+iv.	Region – (US) West US 2  change to EU
+v.	Image type – Public
+vi.	Image name - mcr.microsoft.com/azure-cognitive-services/sentiment
+vii.	OS Type – Linux
+viii.	Size – by default ACI basics page will show 1vcpu and 1.5GB memory, but we need to change it by clicking ‘change size’
+1.	Number of CPU cores – 2
+2.	Memory GB – 4
+3.	GPU - None
+d.	Click OK
+e.	Click Next Networking
+B)	On the networking page, edit the existing port for TCP from ‘80’ to ‘5000’  this means we are trying to expose container on port 5000
+a.	Update the port to 5000
+b.	Click Advanced to provide environmental variables.
+C)	Set Configuration and Environment Variables – 
+a.	Environment variables – you should specify three environment variables here in key and value section as mentioned below
+Key	Value
+eula	accept
+apikey	apikey from cognitive services keys page
+billing	billing endpoint from cognitive services overview page
+
+b.	Command Override – leave it blank
+c.	Click next and don’t mentioned anything at Tags page
+d.	Click ‘next – Review and Create’ and click ‘create’
+
+D)	After validation passed, click OK again for the resource to get created.
+E)	Once deployment complete you will be notified in the Notifications.
+F)	Navigate to the ACI resource, select overview page.
+G)	On the overview page, copy the IP address and try to resolve in IE – http://<IPAddress>:5000 (since you mentioned port 5000 for the container to get exposed.
+H)	You will see a page similar to below
