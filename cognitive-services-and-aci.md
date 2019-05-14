@@ -81,7 +81,11 @@ With the following steps, you can run Cognitive Services containers onto Azure C
 
 1. Select the **Overview** and copy the IP address. It will be a numeric IP address such as `52.155.55.55`.
 1. Open a new browser tab and use the IP address, for example, `https://<IP-address>:5000`. You will see the container's home page, letting you know the container is running.
+
+     ![View the swagger API](./media/container-webpage.png)
+
 1. Select **Service API Description** to view the swagger page for the container.
+
 1. Select any of the **POST** APIs and select **Try it out**.  The parameters are displayed including the input:
 
     ```json
