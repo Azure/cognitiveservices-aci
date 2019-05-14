@@ -67,7 +67,7 @@ With the following steps, you can run Cognitive Services containers onto Azure C
 
 1. On the **Advanced** tab, enter the following details to pass through the container [required billing settings](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers#billing-arguments) to the ACI resource:
 
-    |Advanced page key|Advanced page Value|
+    |Advanced page key|Advanced page value|
     |--|--|
     |`ApiKey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
     |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https:///northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
