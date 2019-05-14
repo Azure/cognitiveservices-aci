@@ -15,7 +15,7 @@ With the following steps, you can run Cognitive Services containers onto Azure C
 
     |Setting|Value|
     |--|--|
-    |Name|`ta-container`|
+    |Name|`textanalytics-resource`|
     |Subscription|Select your subscription.|
     |Location|`(Europe) North Europe`|
     |Pricing Tier|`F0` - this is the free pricing tier.|
