@@ -1,4 +1,8 @@
 
+# Running Cognitive Services on Azure Container Instances (ACI)
+
+Try the [10 minute quickstart](cognitive-services-and-aci.md).
+
 # Contributing
 
 
