@@ -13,7 +13,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Setting|Value|
     |--|--|
-    |Name|`textanalytics-resource`|
+    |Name|`textanalytics-resource (or your own choice)`|
     |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Location|`(US) West US 2`|
     |Pricing Tier|`F0` - this is the free pricing tier (or) `S` - this is the standard pricing tier.|
@@ -32,19 +32,19 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
 ## Launch Text Analytics Containers on Azure Container Instances (ACI) 
 
-1. Select **+ Create a resource**.
-1. Go to the **Container Instances** [Create window](https://ms.portal.azure.com/#create/microsoft.containerinstances). 
+**Creating Azure Container Instance (ACI) resource.**
 
-    You can also navigate to **Containers** -> **Container Instances**. 
+1. Navigate to [Create a ACI resource](http://aka.ms/acinewcreate) here.
+  (or) go to **Container Instances** [Create window](https://ms.portal.azure.com/#create/microsoft.containerinstances). 
 
-1. On the **Basics** tab, enter the following details:
+2. On the **Basics** tab, enter the following details:
 
     |Page|Setting|Value|
     |--|--|--|
-    |Basics|Subscription|Select your subscription.|
+    |Basics|Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Basics|Resource group|Select the available resource group.|
-    |Basics|Container name|`sentimentcontainer` - this name should be in lower caps|
-    |Basics|Location|`(Europe) North Europe`|
+    |Basics|Container name|`AIcontainer (or your own choice)` - this name should be in lower caps|
+    |Basics|Location|`(US) West US 2`|
     |Basics|Image type|`Public`|
     |Basics|Image name|Enter the sentiment container:<br>mcr.microsoft.com/azure-cognitive-services/sentiment|
     |Basics|OS type|`Linux`|
@@ -56,19 +56,19 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     * `mcr.microsoft.com/azure-cognitive-services/keyphrase`
     * `mcr.microsoft.com/azure-cognitive-services/language`
  
-1. On the **Networking** tab, enter the following details:
+3. On the **Networking** tab, enter the following details:
 
     |Page|Setting|Value|
     |--|--|--|
     |Networking|Ports|Edit the existing port for TCP from `80` to `5000`. This means you are exposing the container on port 5000.|
     ||||
 
-1. On the **Advanced** tab, enter the following details to pass through the container [required billing settings](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers#billing-arguments) to the ACI resource:
+4. On the **Advanced** tab, enter the following details to pass through the container [required billing settings](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers#billing-arguments) to the ACI resource:
 
     |Advanced page key|Advanced page value|
     |--|--|
     |`ApiKey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
-    |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |`Eula`|`accept`|
     
 1. Select **Review and Create**. 
