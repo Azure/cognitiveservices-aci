@@ -18,7 +18,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Name|`textanalytics-resource`|
     |Subscription|Select your subscription.|
     |Location|`(Europe) North Europe`|
-    |Pricing Tier|`F0` - this is the free pricing tier.|
+    |Pricing Tier|`F0` - this is the free pricing tier. (or) `S0` - this is the standard pricing tier.|
     |Resource Group|Select the available resource group.|
     |||
 
