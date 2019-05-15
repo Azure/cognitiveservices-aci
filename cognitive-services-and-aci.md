@@ -16,7 +16,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Name|`textanalytics-resource`|
     |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Location|`(US) West US 2`|
-    |Pricing Tier|`F0` - this is the free pricing tier (or) `S0` - this is the standard pricing tier.|
+    |Pricing Tier|`F0` - this is the free pricing tier (or) `S` - this is the standard pricing tier.|
     |Resource Group|Select the available resource group.|
     |||
 
@@ -27,7 +27,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Page in Azure portal Resource|Setting|Value|
     |--|--|--|
-    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |**Keys**|API Key|Copy 1 of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
 
 ## Launch Text Analytics Containers on Azure Container Instances (ACI) 
