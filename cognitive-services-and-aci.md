@@ -6,10 +6,8 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 ## Create a Cognitive Services resource for Text Analytics 
 
 1. Sign into the [Azure portal](https://portal.azure.com).
-1. Select **+ Create a resource**.
-1. Go to the **Text Analytics** [Create window](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics). 
-
-    You can also navigate to **AI + Machine Learning** -> **Cognitive Services** -> **Text Analytics**. 
+1. Select **+ Create a resource**. Navigate to **AI + Machine Learning -> Cognitive Services -> Text Analytics.**
+1. or click here **Text Analytics** [Create window](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics). 
 
 1. Enter the following details in the Create window:
 
