@@ -6,7 +6,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 ## Create a Cognitive Services resource for Text Analytics 
 
 1. Sign into the [Azure portal](https://portal.azure.com).
-1. Select **+ Create a resource**. Navigate to **AI + Machine Learning -> Cognitive Services -> Text Analytics.**
+1. Select **+ Create a resource**. Navigate to **AI + Machine Learning -> Text Analytics.**
 1. or click here **Text Analytics** [Create window](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics). 
 
 1. Enter the following details in the Create window:
@@ -14,10 +14,10 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Setting|Value|
     |--|--|
     |Name|`textanalytics-resource`|
-    |Subscription|A subscription has been created for you.|
-    |Location|`(Europe) North Europe`|
-    |Pricing Tier|`F0` (free) or `S0` (paid). Either pricing tier will work.|
-    |Resource Group|A resource group has been created for you.|
+    |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
+    |Location|`(US) West US 2`|
+    |Pricing Tier|`F0` - this is the free pricing tier (or) `S0` - this is the standard pricing tier.|
+    |Resource Group|Select the available resource group.|
     |||
 
 1. Select **Create**.
@@ -41,8 +41,8 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Page|Setting|Value|
     |--|--|--|
-    |Basics|Subscription|A subscription has been created for you.|
-    |Basics|Resource group|A resource group has been created for you.|
+    |Basics|Subscription|Select your subscription.|
+    |Basics|Resource group|Select the available resource group.|
     |Basics|Container name|`sentimentcontainer` - this name should be in lower caps|
     |Basics|Location|`(Europe) North Europe`|
     |Basics|Image type|`Public`|
@@ -77,7 +77,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
 ## Use the Container Instance
 
-1. Select the **Overview** and copy the IP address. It will be a numeric IP address such as `55.55.55.55`.
+1. Select the **Overview** and copy the IP address. It will be a numeric IP address such as `52.155.55.55`.
 1. Open a new browser tab and use the IP address, for example, `https://<IP-address>:5000`. You will see the container's home page, letting you know the container is running.
 
      ![View the swagger API](./media/container-webpage.png)
