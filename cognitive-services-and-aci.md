@@ -48,7 +48,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Basics|Image type|`Public`|
     |Basics|Image name|Enter the sentiment container:<br>mcr.microsoft.com/azure-cognitive-services/sentiment|
     |Basics|OS type|`Linux`|
-    |Basics|Size|Change size to:<br>2 cores<br>4 BG 
+    |Basics|Size|Change size to:<br>2 cores<br>4 GB 
     ||||
    
     The other two Text Analytics containers could be entered but the [swagger exercise](#use-the-container-instance) further in this quickstart will have a slightly different experience: 
