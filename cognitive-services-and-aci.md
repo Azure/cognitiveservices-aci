@@ -34,8 +34,8 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
 **Creating Azure Container Instance (ACI) resource.**
 
-1. Navigate to [Create a ACI resource](http://aka.ms/acinewcreate) here.
-  (or) go to **Container Instances** [Create window](https://ms.portal.azure.com/#create/microsoft.containerinstances). 
+1. Navigate to [Create a ACI resource](https://ms.portal.azure.com/#create/Microsoft.ContainerInstances) here.
+  (or) go to **+Create Resource --> Containers -->** [Container Instances](https://ms.portal.azure.com/#create/Microsoft.ContainerInstances)
 
 2. On the **Basics** tab, enter the following details:
 
@@ -67,9 +67,9 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Advanced page key|Advanced page value|
     |--|--|
-    |`ApiKey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
-    |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
-    |`Eula`|`accept`|
+    |`apikey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
+    |`billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    |`eula`|`accept`|
     
 1. Select **Review and Create**. 
 1. After validation passes, select **Create** to finish the creation process.
