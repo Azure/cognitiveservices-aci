@@ -109,7 +109,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     ```
 
 1. Update the first text value of the input JSON to the following text to learn the sentiment:
-    `I have been to KubeCon conference in Barcelona and believe me, it is one of the best conference I have ever had. Great people, great session and thoroughly enjoyed. The best is expo which I witnessed some cool demos from Microsoft about Azure Container Instances (ACI), it is brilliant. If I were given an opportunity I will go again to this conference.`
+    `I have been to KubeCon conference in Barcelona, it is one of the best conference I have ever had. Great people, great session and thoroughly enjoyed it.`
 
 1. Set **showStats** to true. 
 
