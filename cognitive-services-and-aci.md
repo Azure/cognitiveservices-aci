@@ -77,8 +77,8 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
 ## Use the Container Instance
 
-1. Select the **Overview** and copy the IP address. It will be a numeric IP address such as `52.155.55.55`.
-1. Open a new browser tab and use the IP address, for example, `https://<IP-address>:5000`. You will see the container's home page, letting you know the container is running.
+1. Select the **Overview** and copy the IP address. It will be a numeric IP address such as `55.55.55.55`.
+1. Open a new browser tab and use the IP address, for example, `http://<IP-address>:5000 (http://55.55.55.55:5000`). You will see the container's home page, letting you know the container is running.
 
      ![View the swagger API](./media/container-webpage.png)
 
