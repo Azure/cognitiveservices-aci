@@ -27,7 +27,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Page in Azure portal Resource|Setting|Value|
     |--|--|--|
-    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://<region>.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |**Keys**|API Key|Copy 1 of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
 
 ## Launch Text Analytics Containers on Azure Container Instances (ACI) 
@@ -68,7 +68,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Advanced page key|Advanced page value|
     |--|--|
     |`ApiKey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
-    |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https:///northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    |`Billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |`Eula`|`accept`|
     
 1. Select **Review and Create**. 
