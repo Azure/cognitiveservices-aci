@@ -15,7 +15,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |--|--|
     |Name|`textanalytics-resource (or your own choice)`|
     |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
-    |Location|`(US) West US 2`|
+    |Location|`(Europe) North Europe`|
     |Pricing Tier|`F0` - this is the free pricing tier (or) `S` - this is the standard pricing tier.|
     |Resource Group|Select the available resource group.|
     |||
@@ -27,7 +27,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
 
     |Page in Azure portal Resource|Setting|Value|
     |--|--|--|
-    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    | **Overview**|Endpoint|Copy the endpoint. It looks like `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |**Keys**|API Key|Copy 1 of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
 
 ## Launch Text Analytics Containers on Azure Container Instances (ACI) 
@@ -44,7 +44,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Basics|Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Basics|Resource group|Select the available resource group.|
     |Basics|Container name|`AIcontainer (or your own choice)` - this name should be in lower caps|
-    |Basics|Location|`(US) West US 2`|
+    |Basics|Location|`(Europe) North Europe`|
     |Basics|Image type|`Public`|
     |Basics|Image name|Enter the sentiment container:<br>mcr.microsoft.com/azure-cognitive-services/sentiment|
     |Basics|OS type|`Linux`|
@@ -68,7 +68,7 @@ With the following steps, you can run a Cognitive Services' [Text Analytics](htt
     |Advanced page key|Advanced page value|
     |--|--|
     |`apikey`|Copied from the **Keys** page of the Text Analytics resource. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
-    |`billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://westus2.api.cognitive.microsoft.com/text/analytics/v2.0`|
+    |`billing`|Copied from the **Overview** page of the Text Analytics resource. Example: `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |`eula`|`accept`|
     
 1. Select **Review and Create**. 
