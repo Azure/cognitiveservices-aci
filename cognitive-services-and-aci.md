@@ -2,10 +2,13 @@
 
 With the following steps, Scale your Azure Cognitive Services applications in the cloud easily with Azure Container Instances (ACI). This 10 minute quickstart walks you through running Cognitive Services on ACI so you can focus on building your applications instead of managing the infrastructure.
 
-This quickstart will guide you to run a Cognitive Services [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instance](https://docs.microsoft.com/azure/container-instances/) (ACI)
+This quickstart will guide you to run a Cognitive Services [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instance](https://docs.microsoft.com/azure/container-instances/) (ACI), it briefly cover two steps:
+
+1. **Cognitive Services resource creation for Text Analytics**
+2. **Deploying Text Analytics docker image to Azure Container Instance**
 
 
-## Create a Cognitive Services resource for Text Analytics 
+## Step 1: Create a Cognitive Services resource for Text Analytics 
 
 1. Sign into the [Azure portal](https://portal.azure.com).
 1. Select **+ Create a resource**. Navigate to **AI + Machine Learning -> Text Analytics.**
@@ -32,7 +35,7 @@ This quickstart will guide you to run a Cognitive Services [Text Analytics](http
     | **Overview**|Endpoint|Copy the endpoint. It looks like `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
     |**Keys**|API Key|Copy 1 of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
 
-## Launch Text Analytics Containers on Azure Container Instances (ACI) 
+## Step 2: Launch Text Analytics Containers on Azure Container Instances (ACI) 
 
 **Creating Azure Container Instance (ACI) resource.**
 
