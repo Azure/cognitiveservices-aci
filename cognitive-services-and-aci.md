@@ -1,6 +1,8 @@
 # 10 minute Quickstart: Running Cognitive Services on Azure Container Instances (ACI)
 
-With the following steps, you can run a Cognitive Services' [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instances](https://docs.microsoft.com/azure/container-instances/) (ACI)
+With the following steps, Scale your Azure Cognitive Services applications in the cloud easily with Azure Container Instances (ACI). This 10 minute quickstart walks you through running Cognitive Services on ACI so you can focus on building your applications instead of managing the infrastructure.
+
+This quickstart will guide you to run a Cognitive Services [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instance](https://docs.microsoft.com/azure/container-instances/) (ACI)
 
 
 ## Create a Cognitive Services resource for Text Analytics 
