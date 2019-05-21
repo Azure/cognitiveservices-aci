@@ -18,7 +18,7 @@ This briefly guide you to run a Cognitive Services [Text Analytics](https://docs
 
     |Setting|Value|
     |--|--|
-    |Name|`textanalytics-resource (or your own choice)`|
+    |Name|`please provide a name of your choice`|
     |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Location|`(Europe) North Europe`|
     |Pricing Tier|`S1` - this is the standard pricing tier.|
@@ -48,7 +48,7 @@ This briefly guide you to run a Cognitive Services [Text Analytics](https://docs
     |--|--|--|
     |Basics|Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Basics|Resource group|Select the available resource group.|
-    |Basics|Container name|`AIcontainer (or your own choice)` - this name should be in lower caps|
+    |Basics|Container name|`provide a name of your choice` - this name should be in lower caps|
     |Basics|Location|`(Europe) North Europe`|
     |Basics|Image type|`Public`|
     |Basics|Image name|Enter the sentiment container:<br>mcr.microsoft.com/azure-cognitive-services/sentiment|
