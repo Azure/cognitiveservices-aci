@@ -21,7 +21,7 @@ This briefly guide you to run a Cognitive Services [Text Analytics](https://docs
     |Name|`please provide a name of your choice`|
     |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Location|`(Europe) North Europe`|
-    |Pricing Tier|`S1` - this is the standard pricing tier.|
+    |Pricing Tier|`S` - this is the standard pricing tier.|
     |Resource Group|Select the available resource group.|
     |||
 
